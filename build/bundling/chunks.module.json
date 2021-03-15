@@ -1,0 +1,182 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "f0397c6d24b51b29f547",
+  "publicPath": "/static/",
+  "outputPath": "/Users/erik/erik-thor-portfolio/build/static",
+  "assetsByChunkName": {
+    "archive": "archive.module.js",
+    "erik-thor-portfolio": [
+      "erik-thor-portfolio.module.js",
+      "erik-thor-portfolio.cb0756dffaee94c296e8.hot-update.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "archive.module.js",
+      "size": 94168,
+      "chunks": [
+        "archive"
+      ],
+      "chunkNames": [
+        "archive"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "cb0756dffaee94c296e8.hot-update.json",
+      "size": 61,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "erik-thor-portfolio.cb0756dffaee94c296e8.hot-update.js",
+      "size": 5212,
+      "chunks": [
+        "erik-thor-portfolio"
+      ],
+      "chunkNames": [
+        "erik-thor-portfolio"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "erik-thor-portfolio.module.js",
+      "size": 13811687,
+      "chunks": [
+        "erik-thor-portfolio"
+      ],
+      "chunkNames": [
+        "erik-thor-portfolio"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/pattern-tile-green.svg",
+      "size": 74467,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/frontity-chakra-theme/src/assets/pattern-tile-green.svg"
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/pattern-tile-light-fade.svg",
+      "size": 95727,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/frontity-chakra-theme/src/assets/pattern-tile-light-fade.svg"
+      },
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "erik-thor-portfolio": {
+      "chunks": [
+        "erik-thor-portfolio"
+      ],
+      "assets": [
+        "erik-thor-portfolio.module.js",
+        "erik-thor-portfolio.cb0756dffaee94c296e8.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "erik-thor-portfolio": {
+      "chunks": [
+        "erik-thor-portfolio"
+      ],
+      "assets": [
+        "erik-thor-portfolio.module.js",
+        "erik-thor-portfolio.cb0756dffaee94c296e8.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "archive": {
+      "chunks": [
+        "archive"
+      ],
+      "assets": [
+        "archive.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "archive",
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "size": 29268,
+      "names": [
+        "archive"
+      ],
+      "files": [
+        "archive.module.js"
+      ],
+      "hash": "2392cbed2a90f4e05008",
+      "siblings": [],
+      "parents": [
+        "erik-thor-portfolio"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": "erik-thor-portfolio",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 3140049,
+      "names": [
+        "erik-thor-portfolio"
+      ],
+      "files": [
+        "erik-thor-portfolio.module.js",
+        "erik-thor-portfolio.cb0756dffaee94c296e8.hot-update.js"
+      ],
+      "hash": "96e4a94ff31d2578a556",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "archive"
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [],
+  "generator": "loadable-components"
+}
